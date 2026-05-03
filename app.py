@@ -5,3 +5,5 @@ if __name__ == "__main__":
     print("Calculator App Running...")
     print("2 + 3 =", add(2, 3))
 
+print{"Hello team"}
+
