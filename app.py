@@ -1,20 +1,7 @@
 def add(a, b):
     return a + b
 
-def sub(a, b):
-    return a - b
+if __name__ == "__main__":
+    print("Calculator App Running...")
+    print("2 + 3 =", add(2, 3))
 
-def mul(a, b):
-    return a * b
-
-def div(a, b):
-    return a / b
-
-print("Simple Calculator")
-a = int(input("Enter first number: "))
-b = int(input("Enter second number: "))
-
-print("Add:", add(a, b))
-print("Sub:", sub(a, b))
-print("Mul:", mul(a, b))
-print("Div:", div(a, b))
